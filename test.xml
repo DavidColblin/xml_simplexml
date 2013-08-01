@@ -1,0 +1,17 @@
+<api>
+    <method name="getSomeData">
+        <endpoint>http://www.myserver.com/api/getSomeData</endpoint>
+        <description>Read some data off of the server. Simple enough.</description>
+        <requestMethod>GET</requestMethod>
+        <httpsRequired>No</httpsRequired>
+        <responseFormat>JSON</responseFormat>
+        <authenticationRequired>No</authenticationRequired>
+        <parameters>
+            <parameter name="id">
+                <description>The unique integer ID of the server-side object.</description>
+                <required>Yes</required>
+                <type>Integer</type>
+            </parameter>
+        </parameters>
+    </method>
+</api>
